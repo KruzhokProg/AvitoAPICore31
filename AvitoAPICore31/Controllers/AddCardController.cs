@@ -14,6 +14,7 @@ namespace AvitoAPICore31.Controllers
     {
         AvitoContext db = new AvitoContext();
 
+        // добавление кредитной карты
         [HttpPost]
         public ActionResult Post([FromBody] CardModel std)
         {
